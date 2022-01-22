@@ -1,0 +1,207 @@
+/* HERE ONLY FONT PROBLEM. IF YOU THOUGHT THIS WEBSITE IS  NOT GOOD THEN YOU CHANGE FONT SIZE, FONT-STYLE AND YOU CAN SET GOOGLE FONT ETC. THEN IT WILL BE GOOD OKAY */
+/* reset */
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* NAVBAR */
+#navbar{
+    background-color: blue;
+    padding: 1.5rem;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    
+    color: yellow;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+
+#navbar ul li{
+     list-style: none;
+     list-style: none;
+    padding-right: 2rem;
+}
+#navbar li a{
+    font-family: 'Gochi Hand', cursive;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: white;
+    
+}
+ #navbar li a:hover{
+    color: red;
+    font-weight: bold;
+    outline: none;
+    /* font-style: italic; */
+}
+#logo{
+    display: flex;
+    color: white;
+    padding-right: 36px;
+    font-size: 16px;
+}
+
+#navbar img{
+    height: 62px;
+    filter: invert(1);
+    margin: -25px -10px;
+}
+
+
+
+
+
+
+/* INTRO SECTION */
+#introSection{
+    /* background: center/cover no-repeat url("./static/image/bground.jpg"); */
+    /* border: 2px solid red; */
+    /* background-color: rgb(233, 164, 164); */
+    color: white;
+    height: 400px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif ;
+    font-weight: bold;
+    font-size: 3rem;
+    flex-direction: column;
+}
+
+#introSection::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: center/cover no-repeat url("./static/image/bg4.jpg");
+    z-index: -1;
+    opacity: 0.5;
+}
+#introSection div.small{
+    font-family: emoji;
+    font-size: 23px;
+    margin-top: 1px;
+    color: black;
+    
+}
+
+#introSection .big{
+    font-family: emoji;
+    color: black;
+    
+    
+}
+
+
+
+/* MISSION SECTION */
+#missionSection{
+    /* border: 2px solid blue; */
+    background-color: white;
+    color: black;
+    height: 285px;
+    /* text-align: center; */
+    
+}
+.card{
+    
+    width: 22%;
+    border-radius: 10px;
+    height: 12rem;
+    margin: 9px -137px 13px 191px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(67 210 253);
+    padding-top: 10px;
+}
+.card h4{
+    font-family: 'Gochi Hand', cursive;
+    text-align: center;
+}
+/* #cards{//i was making one div with "cards " id but i deleted
+    display: flex;
+    flex-direction: row;
+} */
+#missionSection h3{
+    text-align: center ;
+    padding-top: 18px;
+    font-family: emoji;
+    font-size: 30px;
+}
+.card-img{
+    height: 155px;
+    padding: 0px;
+}
+.card-img img{
+    height: 155px;
+    height: inherit;
+    padding: 0px; 
+    margin: -10px;
+    /* display: block; */
+}
+.card-content p{
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* display: block; */
+}
+.card-box{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+
+
+
+
+/* SPONSER SECTION */
+#sponserSection{
+    /* border: 2px solid blue; */
+    background-color: rgb(236 178 255);
+    color: black;
+    height: 285px;
+    text-align: center;
+  }
+#sponserSection h3{
+    padding-top: 18px;
+    font-family: emoji;
+    font-size: 30px;
+}
+#sponserimg{
+    height: 100px;
+    max-width: 1000px;
+    margin: auto;
+}
+.s-img{
+    height: 120px;
+    margin: 50px 45px;
+}
+
+
+
+
+
+
+
+/* FOOTER SECTION */
+#footerSection{
+     background-color: black;
+    color: white;
+    height: 100px;
+    text-align: center;
+    padding-top: 35px;
+}

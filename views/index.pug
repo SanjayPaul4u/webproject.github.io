@@ -1,0 +1,57 @@
+doctype html
+html
+  head
+    title Boom Boom Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar.nav
+     ul 
+      div#logo
+        img(src="./static/image/dance.png")
+        | BBDA
+      li  #[a(href="/") Home]
+      li  #[a(href="/") About us] 
+      li  #[a(href="/") Services]
+      li  #[a(href="/") Contact]
+      li  #[a(href="/") Class info]
+
+    section#introSection
+      div.big Boomn Boom Dance Academy
+      div.small Eat Sleep Dance Repeat
+
+    section#missionSection
+      h3 Our Mission
+      div.card
+          h4 Dance Perfection
+          div.card-box
+            div.card-img 
+              img(src="./static/image/dance.png", alt="error")
+            div.card-content 
+              p This the best dance academy in the universe.
+      div.card
+          h4 Dance the way you Like 
+          div.card-box
+            div.card-img 
+              img(src="./static/image/dance.png", alt="error")
+            div.card-content 
+              p This the best dance academy in the universe.
+      div.card
+          h4 Expert Teaching
+          div.card-box
+            div.card-img 
+              img(src="./static/image/dance.png", alt="error")
+            div.card-content 
+              p This the best dance academy in the universe.
+    section#sponserSection
+      h3 Our Sponsers
+      div#sponserimg
+        img(src="./static/image/apple.png", alt="error", class="s-img" )
+        img(src="./static/image/hp.png", alt="error", class="s-img" )
+        img(src="./static/image/lg.png", alt="error", class="s-img" )
+        img(src="./static/image/apple2.png", alt="error", class="s-img" )
+    footer#footerSection 
+      | Copyright@ 2022 Boom Boom Dance Academy | All rights are reserved
+    script 
+      include ../static/index.js
+    
