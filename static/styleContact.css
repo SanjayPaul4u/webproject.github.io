@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+    
+    padding-top: 10px;
+}
+#forms{
+    background-color: rgb(76, 185, 248);
+    height: 620px;
+}
+input,textarea{
+    border: 2px solid black;
+    display: block;
+    padding: 6px;
+    margin: 15px auto;
+    width: 500px;
+    border-radius: 8px;
+    outline: none;
+    color: green;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: black;
+}
+#btn{
+    border-radius: 8px;
+    padding: 5px;
+    width: 100px;
+    display: block;
+    margin: -1px auto;
+    background-color: red;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+}

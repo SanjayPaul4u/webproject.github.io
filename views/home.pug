@@ -1,0 +1,44 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+block style
+    style
+      include ../static/style.css
+
+block content 
+    
+    section#introSection
+      div.big Boomn Boom Dance Academy
+      div.small Eat Sleep Dance Repeat
+
+    section#missionSection
+      h3 Our Mission
+      div.card
+          h4 Dance Perfection
+          div.card-box
+            div.card-img 
+              img(src="./static/image/dance.png", alt="error")
+            div.card-content 
+              p This the best dance academy in the universe.
+      div.card
+          h4 Dance the way you Like 
+          div.card-box
+            div.card-img 
+              img(src="./static/image/dance.png", alt="error")
+            div.card-content 
+              p This the best dance academy in the universe.
+      div.card
+          h4 Expert Teaching
+          div.card-box
+            div.card-img 
+              img(src="./static/image/dance.png", alt="error")
+            div.card-content 
+              p This the best dance academy in the universe.
+    section#sponserSection
+      h3 Our Sponsers
+      div#sponserimg
+        img(src="./static/image/apple.png", alt="error", class="s-img" )
+        img(src="./static/image/hp.png", alt="error", class="s-img" )
+        img(src="./static/image/lg.png", alt="error", class="s-img" )
+        img(src="./static/image/apple2.png", alt="error", class="s-img" )
